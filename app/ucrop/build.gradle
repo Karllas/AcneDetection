@@ -1,0 +1,44 @@
+apply plugin: 'com.android.library'
+apply from: '../mavenpush.gradle'
+
+android {
+    compileSdkVersion 31
+    buildToolsVersion '30.0.2'
+
+    defaultConfig {
+        minSdkVersion 14
+        targetSdkVersion 31
+        versionCode 26
+        versionName "2.2.8-native"
+
+        vectorDrawables.useSupportLibrary = true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
+    lintOptions {
+        abortOnError false
+    }
+
+    resourcePrefix 'ucrop_'
+
+    sourceSets.main {
+        jni.srcDirs = []
+    }
+
+}
+
+dependencies {
+    implementation "androidx.appcompat:appcompat:${androidx_appcompat_version}"
+    implementation "androidx.exifinterface:exifinterface:${androidx_exifinterface_version}"
+    implementation "androidx.transition:transition:${androidx_transition_version}"
+    // OkHttp3 versions above 3.12.x don't support pre-Lollipop Android versions (API 21)
+    implementation "com.squareup.okhttp3:okhttp:3.12.13"
+}

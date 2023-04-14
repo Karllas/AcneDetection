@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name" translatable="false">Acne Detection</string>
+    <string name="set_password">Set Password</string>
+    <string name="full_name">Full Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="enteryourname">Enter your Name</string>
+    <string name="validusername">Username Already Taken</string>
+    <string name="validpassword">Between 6 and 12 alphanumeric characters</string>
+    <string name="privacypolicy">Privacy policy and terms of service</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="by_using_this_ui_ux_you_agree">by using this ui/ux you agree to our</string>
+    <string name="title_activity_sign_up">SignUp</string>
+    <string name="privacypolicyterms">
+
+        <b>Extended Licence</b> \The Extended License grants you, the purchaser, an ongoing, non-exclusive, worldwide license to make use of the digital work (Item) you have selected. You are licensed to use the Item to create one single End Product for yourself or for one client (a “single application”), and the End Product may be Sold. \n\n
+
+        <b>Regular LICENCE</b> \The Regular License grants you, the purchaser, an ongoing, non-exclusive, worldwide license to make use of the digital work (Item) you have selected. You are licensed to use the Item to create one single End Product for yourself or for one client (a “single application”), and the End Product can be distributed for Free..\n\n
+
+    </string>
+    <string name="OK">OK</string>
+</resources>

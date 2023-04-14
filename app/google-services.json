@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1001591607952",
+    "project_id": "acne-detection-72b5f",
+    "storage_bucket": "acne-detection-72b5f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1001591607952:android:f97aad2097958a5dd23e15",
+        "android_client_info": {
+          "package_name": "codedreamer.apps.acnedetection"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1001591607952-lh3ikdt3dhj3o407la2df71i5qpdpk90.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_xJANn7NE2DdxqfOf4DH0W9AnOmtzciU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1001591607952-lh3ikdt3dhj3o407la2df71i5qpdpk90.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
